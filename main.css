@@ -1,4 +1,8 @@
 /* ADD YOUR STYLES HERE */
+* {
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+}
 form {
 	width: 700px;
 }
@@ -52,11 +56,11 @@ input.valid {
 }
 span.is-valid {
 	color: #4DCB24;
-	padding-left: 18px;
+	padding-left: 14px;
 }
 span.is-invalid {
 	color: #F73A34;
-	padding-left: 18px;
+	padding-left: 14px;
 }
 .searchContainer {
 	padding: 15px;
@@ -71,7 +75,7 @@ span.is-invalid {
 .searchContainer div {
 	display: inline-block;
 	width: 75%;
-	padding: 0 10px;
+	padding: 0 8px;
 }
 .textInput {
 	border-radius: 6px;
@@ -82,36 +86,33 @@ span.is-invalid {
 }
 .searchContainer input[type="submit"] {
 	color: #fff;
-	padding: 7px 10px;
+	padding: 6px 10px;
 	width: auto;
 	background-color: #E6848A;
 	margin-left: 0;
-	font-size: 14px;
+	font-size: 12px;
 }
 .tagBox {
-	border-radius: 4px;
+	border-radius: 6px;
 	border: 1px solid #ccc;
 	width: 400px;
+	line-height: 20px;
+	padding: 2px;
 }
 .tagBox ul {
 	padding-left: 0;
 	list-style: none;
 	display: inline-block;
 }
-.tagBox li,
-.tagBox input {
-	line-height: 1em;
-	margin: 2px;
-	border-radius: 3px;
-	padding: 5px 2px 2px 2px;
-	border: 0;
-}
+
 .tagBox li {
 	display: inline-block;
 	background-color: #838BF0;
 	color: #fff;
 	font-size: 12px;
-	padding: 5px 5px 2px 2px;
+	padding: 2px 5px 2px 2px;
+	margin: 2px;
+	border-radius: 4px;
 }
 .tagBox li a {
 	text-decoration: none;
@@ -119,6 +120,7 @@ span.is-invalid {
 	color: #ccc;
 	padding: 1px 2px;
 	margin: 2px;
+	border-radius: 2px;
 }
 .tagBox li:hover a {
 	opacity: .8;
