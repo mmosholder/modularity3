@@ -42,6 +42,7 @@ input[type="submit"] {
 	font-size: 16px;
 	line-height:normal;
 	padding: 10px 0;
+	background-color: #ccc;
 }
 input.valid,
 input.invalid {
@@ -64,9 +65,9 @@ span.is-invalid {
 }
 .searchContainer {
 	padding: 15px;
-	border: 1px solid #bbb;
-	background-color: #ccc;
-	border-radius: 20px;
+	border: 1px solid #ccc;
+	background-color: #ddd;
+	border-radius: 15px;
 }
 .searchContainer label {
 	width: auto;
@@ -80,7 +81,7 @@ span.is-invalid {
 .textInput {
 	border-radius: 6px;
 	color: #ccc;
-	border: 1px solid #ccc;
+	border: 1px solid #bbb;
 	width: 100%;
 	font-size: 14px;
 }
