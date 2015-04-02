@@ -165,11 +165,17 @@ table.repositoriesContainer {
 	list-style: none;
 	padding-left: 0px;
 }
-.repositoriesContainer ul li,
-.repositoriesContainer tr {
-	background-image: url('repo.img');
+.repositoriesContainer ul li {
+	background-image: url('repo-small.png');
 	border-bottom: 1px solid #ccc;
 	padding: 10px 5px 5px 0;
+	background-position: 10px 10px;	
+	background-repeat: no-repeat;
+}
+td {
+	background-image: url('repo-small.png');
+	background-position: 10px;
+	background-repeat: no-repeat;
 }
 .repositoriesContainer li:last-child,
 .repositoriesContainer tr:last-child {
